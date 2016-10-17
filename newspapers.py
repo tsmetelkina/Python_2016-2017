@@ -173,10 +173,6 @@ if __name__ == '__main__' :
         if download_page(pageUrl) != "":
             I += 1
         main()
-    for i in range (7022, 13730):
-        pageUrl = 'http://gazeta-echo.ru/news/' + str(i)
-        if download_page(pageUrl) != "":
-            I += 1
-        main()
+
           
 
