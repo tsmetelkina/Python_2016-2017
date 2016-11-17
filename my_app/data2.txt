@@ -1,0 +1,3 @@
+﻿tsmetelkina@gmail.com;русский;английский;зелёный;чёрный;синий;коричневый;серый;розовый;голубой;лаймовый;оранжевый;белый;красный;жёлтый;фиолетовый
+skelsmile@gmail.com;english;-;green;black;blue;brown;grey;pink;light-blue;lime;orange;white;red;yellow;violet
+fipl153@gmail.com;Deutsch;english;Grün ;Schwarz;Blau;Braun;Grau;Rosa;Hellblau;-;Orange;Weiß;Rot;Gelb;Violett
