@@ -78,7 +78,8 @@ def w_files ():
     for element in strings2:
         f2.write (element)
     f2.close ()
-
+    
+    return
     
 def main():
     val1 = download_search_set_write (URL)
