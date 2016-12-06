@@ -41,8 +41,10 @@ def download_search_set_write(URL):
                 commonWords = mnText
                 uniqueWords = mnText
             else:
-                commonWords = commonWords.intersection (mnText)
-                uniqueWords = uniqueWords.symmetric_difference (mnText)
+#                commonWords = commonWords.intersection (mnText)
+                 commonWords = commonWords & mnText
+#                uniqueWords = uniqueWords.symmetric_difference (mnText)
+                 uniqueWords = uniqueWords ^ mnText
             i += 1
             
     f = open ('CommonWords.txt', 'w', encoding = 'utf-8')
