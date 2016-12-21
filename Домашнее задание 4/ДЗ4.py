@@ -52,7 +52,7 @@ def _insert_ ():
  
     i = 1
     for token in lines_token:
-        if token[0] == '"' and token[0] == '«' and token[0] == '(': #? Возможно, я не совсем правильно поняла, что такое "знак слева".
+        if token[0] == '"' and token[0] == '«' and token[0] == '(': 
             punkt_left = token[0]
         else:
             punkt_left = 0
